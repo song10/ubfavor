@@ -1,0 +1,31 @@
+[user]
+	name = song10
+	email = song10@gmail.com
+
+[alias]
+	ci = commit #-a
+	co = checkout
+	st = status
+	br = branch
+	brr = branch -r
+	re = remote
+	fe = fetch
+	pu = pull --rebase
+#	praise = blame
+
+[apply]
+	whitespace = strip
+
+[diff]
+	color = auto
+#	rename = copy
+
+[pager]
+	color = true
+
+[status]
+	color = auto
+[color]
+	diff = auto
+	status = auto
+	branch = auto
