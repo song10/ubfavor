@@ -99,6 +99,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+alias rm='rm -i'
+alias rmdir='rmdir -i'
+
 export PATH=$PATH:~/bin
 export EDITOR=vim
 export PS1='\[\033[0;31m\]\u\[\033[0;35m\]@\h:\[\e[33m\]\w\[\e[0m\]\n> '
