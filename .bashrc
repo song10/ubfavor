@@ -80,8 +80,8 @@ fi
 # some more ls aliases
 alias l='ls -CFh'
 alias ll='ls -lFh'
-alias la='ls -A'
 alias lll='ll -aX'
+alias la='ls -A'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
