@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo ifconfig eth0 up 192.168.80.197
 sudo route add default gw 192.168.80.252
 echo nameserver 168.95.1.1 | sudo tee /etc/resolv.conf > /dev/null
