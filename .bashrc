@@ -68,7 +68,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto --group-directories-first'
+    alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -78,10 +78,13 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias l='ls -CFh'
-alias ll='ls -lFh'
-alias lll='ll -aX'
+alias ll='ls -alF'
 alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -98,21 +101,3 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-
-alias rm='rm -i'
-alias rmdir='rmdir -i'
-
-export PATH=$PATH:~/bin
-export EDITOR=vim
-export PS1='\[\033[0;31m\]\u\[\033[0;35m\]@\h:\[\e[33m\]\w\[\e[0m\]\n> '
-
-# [Andes]
-export CVSROOT=song10@atclnx01:/home/project/PVC_CENTRALDIR
-export CVS_RSH=ssh
-export ANDESIGHT=/home/song10/opt/AndeSight
-export NDSLMGRD_LICENSE_FILE=@atcpcw03
-#export ANDESIGHT_ROOT=/home/song10/opt/AndeSight
-
-export http_proxy=http://cache1:3128
-export https_proxy=http://cache1:3128
-# [Andes/]
