@@ -10,4 +10,8 @@ sudo apt-get install \
  python3 \
  default-jre \
  stardict \
+ python-setuptools \
+
+sudo easy_install django suds
+
  
