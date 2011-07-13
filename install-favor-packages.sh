@@ -11,6 +11,7 @@ sudo apt-get install \
  default-jre \
  stardict \
  python-setuptools \
+ git-svn \
 
 sudo easy_install django suds
 
