@@ -13,7 +13,6 @@ sudo apt-get install \
  python-setuptools \
  git-svn \
  mercurial \
+ lua5.1 luajit \
 
 sudo easy_install django suds
-
- 
