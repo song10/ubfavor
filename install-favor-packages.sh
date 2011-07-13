@@ -12,6 +12,7 @@ sudo apt-get install \
  stardict \
  python-setuptools \
  git-svn \
+ mercurial \
 
 sudo easy_install django suds
 
