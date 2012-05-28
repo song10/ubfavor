@@ -1,4 +1,4 @@
-sudo apt-get install \
+sudo apt-get install -y \
  vim \
  git tig \
  meld \
@@ -7,12 +7,7 @@ sudo apt-get install \
  gimp gimp-plugin-registry \
  transmission \
  compizconfig-settings-manager \
- python3 \
  default-jre \
  stardict \
  python-setuptools \
- git-svn \
- mercurial \
- lua5.1 luajit \
-
-sudo easy_install django suds
+ screen tmux \
