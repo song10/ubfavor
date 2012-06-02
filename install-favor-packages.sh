@@ -11,3 +11,4 @@ sudo apt-get install -y \
  stardict \
  python-setuptools \
  screen tmux \
+ terminator \
