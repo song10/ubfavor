@@ -12,3 +12,4 @@ sudo apt-get install -y \
  python-setuptools \
  screen tmux \
  terminator \
+ couchdb \
