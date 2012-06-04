@@ -1,4 +1,4 @@
-sudo apt-get install $* \
+sudo apt-get install -y $* \
 	vim \
 	geany \
 	openssh-client \
