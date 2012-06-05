@@ -8,6 +8,7 @@ sudo apt-get install -y $* \
 	tig \
 	default-jre \
 	curl \
-    screen tmux \
+	screen tmux \
+	dos2unix \
 	;
 
