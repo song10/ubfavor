@@ -1,3 +1,5 @@
+which curl || sudo apt-get install curl
+
 cd ~;
 if [ ! -d .fonts ]; then
 	mkdir .fonts
